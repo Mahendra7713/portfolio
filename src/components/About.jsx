@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hello! I’m a skilled MERN Stack Developer with a passion for building functional and user-friendly applications.
+        I excel in front-end technologies like React.js, Redux, and Tailwind CSS, along with back-end tools such as Node.js, Express.js, and MongoDB. From crafting intuitive user interfaces to managing complex server operations, I bring innovative solutions to every project.
+        Explore my portfolio to see how I turn ideas into impactful digital experiences. Let’s create something exceptional together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

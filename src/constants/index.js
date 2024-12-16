@@ -1,29 +1,19 @@
 import {
-  mobile,
+  AdminPanel,
   backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
+  Bookworm,
+  Codesis,
   css,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  Codesis,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -67,10 +57,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -91,10 +77,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -102,10 +84,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -125,45 +104,45 @@ const experiences = [
 
 ];
 
-const testimonials = [
+const certificates = [
   {
-    testimonial:
+    description:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
-    company: "Acme Co",
+    institute: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
+    description:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
+    institute: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
+    description:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    institute: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bookworm (E-commerce Website)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An online bookstore developed with React.js, enhanced with Material UI, and powered by Redux Toolkit for state management. Users can browse, select, and purchase books effortlessly.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux/redux-toolkit",
         color: "green-text-gradient",
       },
       {
@@ -171,51 +150,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Bookworm,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "AdminPanel (Bookworm Backend Management)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A backend management system built using Node.js, Express.js, and MongoDB. It simplifies operations like managing book listings, categories, and orders for seamless e-commerce functionality",
     tags: [
       {
-        name: "react",
+        name: "MongoDB",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Express.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: AdminPanel,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "FormCreator (Custom Form Generator)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " web application created with JavaScript that allows users to design and export customizable forms, demonstrating flexibility and user-focused development.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+
     ],
-    image: tripguide,
+    image: AdminPanel,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, certificates };
+

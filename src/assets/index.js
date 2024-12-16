@@ -27,9 +27,8 @@ import starbucks from "./company/starbucks.png";
 import Codesis from "./company/codesis.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Bookworm from "./bookworm.png";
+import AdminPanel from "./adminPanelBookWorm.png";
 
 export {
   logo,
@@ -58,7 +57,6 @@ export {
   starbucks,
   Codesis,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Bookworm,
+  AdminPanel
 };
