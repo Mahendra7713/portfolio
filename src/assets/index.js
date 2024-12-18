@@ -26,6 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import Codesis from "./company/codesis.png";
 import tesla from "./company/tesla.png";
+import certificate from "./MernCertificate.jpg";
+import instituteLogo from "./instituteLogo.png";
 
 import Bookworm from "./bookworm.png";
 import AdminPanel from "./adminPanelBookWorm.png";
@@ -58,5 +60,7 @@ export {
   Codesis,
   tesla,
   Bookworm,
-  AdminPanel
+  AdminPanel,
+  certificate,
+  instituteLogo
 };

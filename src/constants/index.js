@@ -13,7 +13,10 @@ import {
   reactjs,
   redux,
   tailwind,
-  web
+  web,
+  certificate,
+  github,
+  instituteLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -106,29 +109,22 @@ const experiences = [
 
 const certificates = [
   {
-    description:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    institute: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "FullStack Web Developer",
+    institute: "TryCatch Classes",
+    image: certificate,
+    github: github,
+    link: "https://drive.google.com/file/d/19-3OMwGClQy_DG_LxYXqSiZ3Bg8eVZIn/view",
+    logo:instituteLogo
   },
-  {
-    description:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    institute: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    description:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    institute: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   description:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   institute: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+
 ];
 
 const projects = [
